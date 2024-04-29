@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    background: grey;
+}
+
+.info {
+    float: right;
+    border: 2px solid black;
+    border-radius: 0px 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    height: 500px;
+    width: 400px;
+    background: url('imgs/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 15%;
+}
+
+form {
+    color: white;
+    display: block;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h1, a {
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+h1>a:hover{
+    color: blue;
+}
+
+label {
+    padding: 10px;
+    margin: 0px;
+}
+
+input {
+    background-color: transparent;
+    padding: 0px 20px;
+    color: white;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid ;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+input:focus{
+   outline: none;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    background: rgba(119, 189, 13, 0.75);
+    color: white;
+    text-transform: uppercase;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+.hathi> img{
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
